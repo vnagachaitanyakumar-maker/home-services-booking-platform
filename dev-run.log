@@ -1,0 +1,15 @@
+
+> dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.11.5.204:3000
+- Environments: .env
+✓ Ready in 1807ms
+
+Seeding database...
+ GET /api/health 200 in 1385ms (next.js: 1233ms, application-code: 152ms)
+Database already seeded!
+ GET / 200 in 2.3s (next.js: 685ms, application-code: 1569ms)
+ GET /api/health 200 in 65ms (next.js: 13ms, application-code: 52ms)

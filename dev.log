@@ -1,0 +1,1435 @@
+
+> dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.11.5.204:3000
+- Environments: .env
+✓ Ready in 1558ms
+
+Seeding database...
+ GET /api/health 200 in 1967ms (next.js: 1490ms, application-code: 477ms)
+Database seeded successfully with users, categories, services, providers, bookings & reviews!
+ GET /api/categories 200 in 1075ms (next.js: 964ms, application-code: 110ms)
+ GET /api/auth/me 200 in 1103ms (next.js: 956ms, application-code: 147ms)
+ GET /api/services 200 in 997ms (next.js: 818ms, application-code: 179ms)
+ GET /api/providers 200 in 1117ms (next.js: 826ms, application-code: 291ms)
+○ Compiling / ...
+Error: Can't resolve 'tailwindcss' in 'C:\Users\Chaitanya\Downloads'
+    [2m[at finishWithoutResolve (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:959:18)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1055:13][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:94:43][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\Chaitanya\\Downloads'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\Chaitanya\\package.json (relative path: ./Downloads)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\Chaitanya\\Downloads\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\Chaitanya\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\Chaitanya\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\Chaitanya\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\Chaitanya\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\Chaitanya\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\Chaitanya\Downloads'
+    [2m[at finishWithoutResolve (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:959:18)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1055:13][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:94:43][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\Chaitanya\\Downloads'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\Chaitanya\\package.json (relative path: ./Downloads)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\Chaitanya\\Downloads\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\Chaitanya\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\Chaitanya\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\Chaitanya\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\Chaitanya\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\Chaitanya\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\Chaitanya\Downloads'
+    [2m[at finishWithoutResolve (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:959:18)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1055:13][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:94:43][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\Chaitanya\\Downloads'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\Chaitanya\\package.json (relative path: ./Downloads)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\Chaitanya\\Downloads\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\Chaitanya\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\Chaitanya\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\Chaitanya\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\Chaitanya\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\Chaitanya\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\Users\Chaitanya\Downloads'
+    [2m[at finishWithoutResolve (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:959:18)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1055:13][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:94:43][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m
+    [2m[at eval (eval at create (C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)][0m
+    [2m[at C:\Users\Chaitanya\Downloads\home-services-booking-platform\node_modules\enhanced-resolve\lib\Resolver.js:1139:5][0m {
+  details: "resolve 'tailwindcss' in 'C:\\Users\\Chaitanya\\Downloads'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\Users\\Chaitanya\\package.json (relative path: ./Downloads)\n' +
+    '    resolve as module\n' +
+    "      C:\\Users\\Chaitanya\\Downloads\\node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in C:\\Users\\Chaitanya\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\Users\\Chaitanya\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\Users\\Chaitanya\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\Users\\Chaitanya\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\Users\\Chaitanya\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\Users\\node_modules doesn't exist or is not a directory\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+
+<--- Last few GCs --->
+
+
+
+<--- Last few GCs --->
+[66512:000001816D7C7000]      688 ms: Scavenge 3.6 (5.1) -> 3.2 (5.6) MB, pooled: 0 MB, 1.75 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+<--- Last few GCs --->
+
+
+
+<--- Last few GCs --->
+[66512:000001816D7C7000]     1052 ms: Scavenge 4.3 (5.8) -> 4.0 (6.3) MB, pooled: 0 MB, 1.12 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[64284:000001DB7C7F3000]       62 ms: Scavenge 3.6 (5.1) -> 3.3 (5.6) MB, pooled: 0 MB, 1.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[25540:000001B802FEA000]      202 ms: Scavenge 3.6 (5.1) -> 3.2 (5.6) MB, pooled: 0 MB, 2.13 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[66512:000001816D7C7000]     1115 ms: Scavenge 5.0 (6.6) -> 4.8 (9.3) MB, pooled: 0 MB, 1.18 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+[64284:000001DB7C7F3000]      863 ms: Scavenge 4.2 (5.8) -> 3.9 (6.3) MB, pooled: 0 MB, 1.52 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[25540:000001B802FEA000]      926 ms: Scavenge 4.3 (5.8) -> 4.0 (6.1) MB, pooled: 0 MB, 292.27 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[61056:00000243F7F17000]     6305 ms: Scavenge 6.5 (7.0) -> 5.7 (10.0) MB, pooled: 0 MB, 2.29 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[64284:000001DB7C7F3000]     1210 ms: Scavenge 5.0 (6.6) -> 4.8 (9.1) MB, pooled: 0 MB, 1.52 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+[25540:000001B802FEA000]     1332 ms: Scavenge 5.0 (6.6) -> 4.7 (9.3) MB, pooled: 0 MB, 1.05 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+[61056:00000243F7F17000]     8085 ms: Scavenge 8.5 (10.9) -> 7.6 (11.4) MB, pooled: 0 MB, 2.02 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+
+<--- JS stacktrace --->
+[61056:00000243F7F17000]     8926 ms: Scavenge 9.8 (12.6) -> 9.1 (17.1) MB, pooled: 0 MB, 375.06 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+
+
+FATAL ERROR: AlignedAlloc Allocation failed - process out of memory
+
+<--- JS stacktrace --->
+<--- JS stacktrace --->
+----- Native stack trace -----
+<--- JS stacktrace --->
+
+
+
+
+FATAL ERROR: AlignedAlloc Allocation failed - process out of memory
+FATAL ERROR: AlignedAlloc Allocation failed - process out of memory
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+----- Native stack trace -----
+----- Native stack trace -----
+
+
+
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635810B9B 
+ 6: 00007FF635ABB283 
+ 7: 00007FF635ABB151 
+ 8: 00007FF635ABB5CF 
+ 9: 00007FF635AE7182 
+10: 00007FF635AD1967 
+11: 00007FF635ACA9D7 
+12: 00007FF635ACAB74 
+13: 00007FF635ACB721 
+14: 00007FF635AD165A 
+15: 00007FF635ACA9D7 
+16: 00007FF635ACDED6 
+17: 00007FF635AD14B4 
+18: 00007FF635ACA9D7 
+19: 00007FF635ACDF8D 
+20: 00007FF635AD0DDA 
+21: 00007FF635ACA9D7 
+22: 00007FF635AD3DA5 
+23: 00007FF635ACAFCD 
+24: 00007FF635ACAE84 
+25: 00007FF635AD0DAA 
+26: 00007FF635ACA9D7 
+27: 00007FF635AD3DA5 
+28: 00007FF635ACAFCD 
+29: 00007FF635ACAE84 
+30: 00007FF635AD0DAA 
+31: 00007FF635ACA9D7 
+32: 00007FF635AD12FF 
+33: 00007FF635ACA9D7 
+34: 00007FF635AD3DA5 
+35: 00007FF635ACAFCD 
+36: 00007FF635ACAE84 
+37: 00007FF635AD0DAA 
+38: 00007FF635ACA9D7 
+39: 00007FF635AD0EB9 
+40: 00007FF635ACA9D7 
+41: 00007FF635AD3DA5 
+42: 00007FF635ACAFCD 
+43: 00007FF635ACAE84 
+44: 00007FF635AD0DAA 
+45: 00007FF635ACA9D7 
+46: 00007FF635AD0EB9 
+47: 00007FF635ACA9D7 
+48: 00007FF635AD0EF9 
+49: 00007FF635ACA9D7 
+50: 00007FF635AD3DA5 
+51: 00007FF635ACAFCD 
+52: 00007FF635ACAE84 
+53: 00007FF635AD0DAA 
+54: 00007FF635ACA9D7 
+55: 00007FF635AD0EB9 
+56: 00007FF635ACA9D7 
+57: 00007FF635AD0EF9 
+58: 00007FF635ACA9D7 
+59: 00007FF635AD0EF9 
+60: 00007FF635ACA9D7 
+61: 00007FF635AD0EF9 
+62: 00007FF635ACA9D7 
+63: 00007FF635AD0EF9 
+64: 00007FF635ACA9D7 
+65: 00007FF635AD0EF9 
+66: 00007FF635ACA9D7 
+67: 00007FF635AD3DA5 
+68: 00007FF635AC8C5C 
+69: 00007FF635AC8888 
+70: 00007FF635AB81CB 
+71: 00007FF635CAC5B8 
+72: 00007FF635CA5A62 
+73: 00007FF635CA8F8B 
+74: 00007FF635CA890A 
+75: 00007FF635884AB7 
+76: 00007FF635DFE46E 
+77: 00007FF635D5FF8F 
+78: 00007FF635D5E692 
+79: 00007FF5B5FBA86A 
+
+
+#
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+#
+----- Native stack trace -----
+
+
+<--- Last few GCs --->
+
+[73660:00000168A8966000]     3089 ms: Scavenge 6.5 (8.0) -> 5.7 (10.0) MB, pooled: 0 MB, 1.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635810B9B 
+ 6: 00007FF635AC97E4 
+
+ 7: 00007FF635AC8313 
+<--- Last few GCs --->
+ 8: 00007FF635D1BC3D 
+
+ 9: 00007FF6359208B8 
+[70044:0000023DF17E4000]    11019 ms: Scavenge 8.9 (11.4) -> 8.9 (11.4) MB, pooled: 0 MB, 0.21 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+10: 00007FF63592203A 
+[70044:0000023DF17E4000]    11029 ms: Mark-Compact (reduce) 8.9 (11.4) -> 7.4 (9.6) MB, pooled: 0 MB, 9.42 / 0.00 ms  (average mu = 0.999, current mu = 0.999) last resort; GC in old space requested
+11: 00007FF63591F729 
+
+12: 00007FF635913F44 
+
+13: 00007FF635927489 
+<--- JS stacktrace --->
+14: 00007FF6359277E5 
+
+15: 00007FF63591CCA8 
+ 1: 00007FF6351D4BB7 
+ 1: 00007FF6351D4BB7 
+
+
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+<--- Last few GCs --->
+
+----- Native stack trace -----
+ 2: 00007FF635134C6B 
+
+16: 00007FF63591BFA7 
+17: 00007FF63591D6CA 
+ 3: 00007FF635D42A11 
+
+
+#
+
+ 2: 00007FF635134C6B 
+
+ 4: 00007FF635D2F4C6 
+[71508:0000027138C23000]    15220 ms: Scavenge 6.5 (7.0) -> 5.7 (8.0) MB, pooled: 0 MB, 1.43 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+18: 00007FF63590EB9D 
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+
+#
+ 1: 00007FF6351D4BB7 
+19: 00007FF6359226BD 
+ 3: 00007FF635D42A11 
+<--- Last few GCs --->
+<--- Last few GCs --->
+ 5: 00007FF635813D2F 
+# Fatal error in , line 0
+[71508:0000027138C23000]    15833 ms: Scavenge 6.3 (8.0) -> 6.0 (7.2) MB, pooled: 1 MB, 2.40 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+#
+ 2: 00007FF635134C6B 
+
+ 6: 00007FF635946C1C 
+
+#
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+# Out of memory: HashMap::Initialize
+20: 00007FF635907C0C 
+
+----- Native stack trace -----
+21: 00007FF635CAA910 
+ 5: 00007FF635813D2F 
+ 7: 00007FF63594669A 
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+
+[68292:000002A8CEDF1000]    21991 ms: Scavenge 9.6 (11.4) -> 9.2 (10.6) MB, pooled: 1 MB, 1.57 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[70056:0000028BA3094000]     9758 ms: Scavenge 6.5 (7.0) -> 6.4 (8.5) MB, pooled: 0 MB, 1.84 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+ 4: 00007FF635D2F4C6 
+
+22: 00007FF635CB0438 
+
+ 8: 00007FF6359447F0 
+ 6: 00007FF635946C1C 
+[68292:000002A8CEDF1000]    22548 ms: Scavenge 10.1 (10.9) -> 9.7 (12.1) MB, pooled: 0 MB, 466.49 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+#
+#
+ 5: 00007FF635B8BB10 
+<--- JS stacktrace --->
+23: 00007FF635D2A027 
+#
+ 7: 00007FF63594669A 
+[68292:000002A8CEDF1000]    29686 ms: Scavenge 10.5 (12.1) -> 10.1 (11.4) MB, pooled: 1 MB, 1.54 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+ 9: 00007FF635BB9909 
+ 1: 00007FF6351D4BB7 
+ 6: 00007FF635B4387D 
+
+#
+24: 00007FF635D29D74 
+----- Native stack trace -----
+ 8: 00007FF6359447F0 
+
+<--- JS stacktrace --->
+10: 00007FF635D1DAF7 
+#FailureMessage Object: 00000083853FB4F0
+ 7: 00007FF635B94D13 
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+ 2: 00007FF6350A53FF 
+
+ 9: 00007FF635BB9909 
+
+
+11: 00007FF63590EEFD 
+ 8: 00007FF635B84BDD 
+----- Native stack trace -----
+----- Native stack trace -----
+25: 00007FF63514268D 
+ 3: 00007FF6363A8576 
+26: 00007FF635142BC4 
+10: 00007FF635D1DAF7 
+<--- JS stacktrace --->
+FATAL ERROR: Zone Allocation failed - process out of memory
+12: 00007FF6359226BD 
+
+ 4: 00007FF635D42A63 
+ 9: 00007FF635B80775 
+27: 00007FF635D603D8 
+11: 00007FF63590EEFD 
+
+
+ 1: 00007FF6351D4BB7 
+ 1: 00007FF6351D4BB7 
+13: 00007FF635907C0C 
+10: 00007FF635507AAD 
+----- Native stack trace -----
+ 5: 00007FF635D2F4C6 
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+28: 00007FF635D5E692 
+14: 00007FF635CAA910 
+11: 7FF8000000000000 
+ 2: 00007FF635134C6B 
+ 2: 00007FF6350A53FF 
+12: 00007FF6359226BD 
+
+ 6: 00007FF635B8BB10 
+13: 00007FF635907C0C 
+----- Native stack trace -----
+29: 00007FF635D5E692 
+15: 00007FF635CB0438 
+ 3: 00007FF6363A8915 
+ 3: 00007FF635D42A11 
+30: 00007FF635D5E692 
+14: 00007FF635CAA910 
+
+ 7: 00007FF635B52C51 
+16: 00007FF635D2A027 
+ 4: 00007FF635D20DB3 
+ 4: 00007FF635D2F4C6 
+ 8: 00007FF635B53270 
+15: 00007FF635CB0438 
+ 1: 00007FF6351D4BB7 
+31: 00007FF635D5E692 
+17: 00007FF635D29D74 
+ 5: 00007FF635D20846 
+ 5: 00007FF635B8BB10 
+ 9: 00007FF635B52F76 
+16: 00007FF635D2A027 
+ 2: 00007FF635134C6B 
+32: 00007FF5B5F9A367 
+ 1: 00007FF6351D4BB7 
+ 1: 00007FF6351D4BB7 
+ 1: 00007FF6351D4BB7 node::SetCppgcReference+21127
+ 1: 00007FF6351D4BB7 
+18: 00007FF63515C279 
+ 6: 00007FF635D20AEC 
+ 6: 00007FF635B4387D 
+10: 00007FF635B42A4B 
+17: 00007FF635D29D74 
+ 3: 00007FF635D42A11 
+ 2: 00007FF635134C6B 
+ 2: 00007FF635134C6B 
+19: 00007FF63515BAF7 
+ 2: 00007FF6350A53FF node::TriggerNodeReport+71455
+ 7: 00007FF635D20988 
+ 2: 00007FF6350A53FF 
+ 7: 00007FF635B94D13 
+11: 00007FF635B4207A 
+18: 00007FF63515C279 
+20: 00007FF635159C01 
+ 3: 00007FF635D42A11 
+ 8: 00007FF6358E9460 
+12: 00007FF635B99920 
+19: 00007FF63515BAF7 
+ 3: 00007FF635D42A11 
+ 3: 00007FF6363A8576 
+ 8: 00007FF635B84BDD 
+ 3: 00007FF6363A8576 v8::base::FatalOOM+54
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635B8BB10 
+ 4: 00007FF635D2F4C6 
+ 4: 00007FF635D2F4C6 
+21: 00007FF635D603D8 
+ 4: 00007FF635D42A63 v8::Isolate::ReportExternalAllocationLimitReached+147
+ 9: 00007FF635922BB6 
+ 4: 00007FF635D42A63 
+ 9: 00007FF635B80775 
+13: 00007FF635BFDAC3 
+ 6: 00007FF635B4387D 
+ 5: 00007FF635810B9B 
+ 5: 00007FF635813D2F 
+22: 00007FF5D5F874B2 
+20: 00007FF635159C01 
+ 5: 00007FF635D2F4C6 v8::Function::Experimental_IsNopFunction+3318
+10: 00007FF6359209FA 
+ 5: 00007FF635D2F4C6 
+10: 00007FF635507AAD 
+14: 00007FF63582FAB3 
+21: 000001813FE0FA64 
+ 7: 00007FF635B94D13 
+ 6: 00007FF635946C1C 
+ 6: 00007FF635D1316C 
+ 6: 00007FF635B8BB10 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+33904
+11: 00007FF635920701 
+11: 7FF8000000000000 
+ 8: 00007FF635B84BDD 
+15: 00007FF635D385F1 
+ 7: 00007FF63594669A 
+ 6: 00007FF635B8BB10 
+ 7: 00007FF635D128FA 
+ 7: 00007FF635B52C51 v8::CpuProfileNode::GetScriptResourceNameStr+3121
+12: 00007FF63592203A 
+16: 00007FF63521372D 
+ 7: 00007FF635B52C51 
+ 9: 00007FF635B80775 
+ 8: 00007FF635B53270 v8::CpuProfileNode::GetScriptResourceNameStr+4688
+ 8: 00007FF6359447F0 
+ 8: 00007FF635910E32 
+ 8: 00007FF635B53270 
+17: 00007FF634FE9991 
+10: 00007FF635507AAD 
+13: 00007FF63591F729 
+ 9: 00007FF635BB9909 
+ 9: 00007FF63591D5CD 
+18: 00007FF634FEFC98 
+14: 00007FF635913F44 
+ 9: 00007FF635B52F76 
+ 9: 00007FF635B52F76 v8::CpuProfileNode::GetScriptResourceNameStr+3926
+11: 7FF8000000000000 
+10: 00007FF635D1DAF7 
+10: 00007FF635917140 
+10: 00007FF635B42A4B v8::PrimitiveArray::Length+127387
+15: 00007FF6359214C4 
+10: 00007FF635B42A4B 
+19: 00007FF634FE3405 
+11: 00007FF6359168E1 
+11: 00007FF635B4207A v8::PrimitiveArray::Length+124874
+11: 00007FF63590EEFD 
+16: 00007FF635920AFA 
+12: 00007FF635916600 
+17: 00007FF635920701 
+12: 00007FF6359226BD 
+20: 00007FF6352345F3 
+12: 00007FF635B99920 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+90752
+11: 00007FF635B4207A 
+12: 00007FF635B99920 
+21: 00007FF636AC0E0B 
+13: 00007FF635907C0C 
+13: 00007FF635BFDAC3 v8::base::CPU::has_sse41+73683
+22: 00007FFFF049CDF7 BaseThreadInitThunk+23
+13: 00007FF635915D4E 
+13: 00007FF635BFDAC3 
+18: 00007FF63592203A 
+14: 00007FF63591CCA8 
+14: 00007FF635CAA910 
+14: 00007FF63582FAB3 v8::base::AddressSpaceReservation::AddressSpaceReservation+12067
+19: 00007FF63591F729 
+14: 00007FF63582FAB3 
+23: 00007FFFF265EE4C 
+15: 00007FF635CB0438 
+15: 00007FF635913B8D 
+15: 00007FF635D385F1 v8::Isolate::Initialize+433
+20: 00007FF635913F44 
+15: 00007FF635D385F1 
+16: 00007FF635D2A027 
+16: 00007FF63590E2B6 
+16: 00007FF63521372D node::NewContext+397
+17: 00007FF63591C4FC 
+17: 00007FF635D29D74 
+16: 00007FF63521372D 
+21: 00007FF635927489 
+17: 00007FF634FE9991 X509_CRL_get_meth_data+149905
+22: 00007FF6359277E5 
+17: 00007FF634FE9991 
+18: 00007FF63515C279 
+18: 00007FF63590796E 
+18: 00007FF634FEFC98 X509_CRL_get_meth_data+175256
+23: 00007FF63591CCA8 
+18: 00007FF634FEFC98 
+19: 00007FF63515BAF7 
+19: 00007FF634FE3405 X509_CRL_get_meth_data+123909
+19: 00007FF635CA8EDE 
+24: 00007FF63591BFA7 
+19: 00007FF634FE3405 
+20: 00007FF635159C01 
+20: 00007FF635CA890A 
+20: 00007FF6352345F3 uv_poll_stop+371
+25: 00007FF63591D6CA 
+20: 00007FF6352345F3 
+21: 00007FF635D603D8 
+21: 00007FF635884AB7 
+21: 00007FF636AC0E0B inflateValidate+186203
+26: 00007FF63590EB9D 
+21: 00007FF636AC0E0B 
+22: 00007FFFF049CDF7 BaseThreadInitThunk+23
+22: 00007FF635DFE46E 
+27: 00007FF6359226BD 
+22: 00007FF5D5F874B2 
+22: 00007FFFF049CDF7 
+23: 00007FF635D5FF8F 
+28: 00007FF635907C0C 
+23: 00007FFFF265EE4C RtlUserThreadStart+44
+24: 00007FF5B5F990AA 
+29: 00007FF635CAA910 
+23: 00007FFFF265EE4C RtlUserThreadStart+44
+30: 00007FF635CB0438 
+31: 00007FF635D2A027 
+32: 00007FF635D29D74 
+33: 00007FF63514268D 
+34: 00007FF635142BC4 
+35: 00007FF635D603D8 
+36: 00007FF635D5E692 
+37: 00007FF635D5E692 
+38: 00007FF635D5E692 
+39: 00007FF635D5E692 
+40: 00007FF5B5F9A367 
+
+<--- Last few GCs --->
+
+[73260:0000026C5CFC2000]    10520 ms: Scavenge 6.5 (7.1) -> 5.7 (8.0) MB, pooled: 0 MB, 1.38 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635810B9B 
+ 6: 00007FF635ABB283 
+ 7: 00007FF635ABB151 
+ 8: 00007FF635ABB5CF 
+ 9: 00007FF635AE7E43 
+10: 00007FF635AC62C8 
+11: 00007FF635AD1B57 
+12: 00007FF635ACA9D7 
+13: 00007FF635ACDED6 
+14: 00007FF635AD14B4 
+15: 00007FF635ACA9D7 
+16: 00007FF635ACDF8D 
+17: 00007FF635AD0DDA 
+18: 00007FF635ACA9D7 
+19: 00007FF635AD3DA5 
+20: 00007FF635ACAFCD 
+21: 00007FF635ACAE84 
+22: 00007FF635AD0DAA 
+23: 00007FF635ACA9D7 
+24: 00007FF635AD3DA5 
+25: 00007FF635AC8C5C 
+26: 00007FF635AC8840 
+27: 00007FF635AB81CB 
+28: 00007FF635CAC5B8 
+29: 00007FF635CA5A62 
+30: 00007FF635CA8F8B 
+31: 00007FF635CA890A 
+32: 00007FF635884AB7 
+33: 0000026C7CF6DAFA 
+
+<--- Last few GCs --->
+
+[61980:00000229545C3000]    26034 ms: Scavenge 10.5 (11.6) -> 10.4 (13.6) MB, pooled: 1 MB, 1.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[61980:00000229545C3000]    26047 ms: Mark-Compact (reduce) 10.4 (13.6) -> 9.5 (12.1) MB, pooled: 0 MB, 12.23 / 0.00 ms  (average mu = 1.000, current mu = 1.000) last resort; GC in old space requested
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635B8BB10 
+ 6: 00007FF635B4387D 
+ 7: 00007FF635B94D13 
+ 8: 00007FF635B84BDD 
+ 9: 00007FF635B80775 
+10: 00007FF635507AAD 
+11: 7FF8000000000000 
+
+
+#
+# Fatal error in , line 0
+# Out of memory: HashMap::Initialize
+#
+#
+#
+#FailureMessage Object: 00000031D43FB2B0
+----- Native stack trace -----
+
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF6350A53FF 
+ 3: 00007FF6363A8915 
+ 4: 00007FF635D20DB3 
+ 5: 00007FF635D20846 
+ 6: 00007FF635D20AEC 
+ 7: 00007FF635D20988 
+ 8: 00007FF6358E9460 
+ 9: 00007FF635922BB6 
+10: 00007FF6359209FA 
+11: 00007FF635920701 
+12: 00007FF63592203A 
+13: 00007FF63591F729 
+14: 00007FF635913F44 
+15: 00007FF6359214C4 
+16: 00007FF635920AFA 
+17: 00007FF635920701 
+18: 00007FF63592203A 
+19: 00007FF63591F729 
+20: 00007FF635913F44 
+21: 00007FF635927489 
+22: 00007FF6359277E5 
+23: 00007FF63591CCA8 
+24: 00007FF63591BFA7 
+25: 00007FF63591D6CA 
+26: 00007FF63590EB9D 
+27: 00007FF6359226BD 
+28: 00007FF635907C0C 
+29: 00007FF635CAA910 
+30: 00007FF635CB0438 
+31: 00007FF635D2A027 
+32: 00007FF635D29D74 
+33: 00007FF63514268D 
+34: 00007FF635142BC4 
+35: 00007FF635D603D8 
+36: 00007FF635D5E692 
+37: 00007FF635D5E692 
+38: 00007FF635D5E692 
+39: 00007FF635D5E692 
+40: 00007FF5B5F9A367 
+
+<--- Last few GCs --->
+
+
+<--- JS stacktrace --->
+
+
+
+#
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+#
+----- Native stack trace -----
+
+
+
+#
+# Fatal process out of memory: Re-embedded builtins: set permissions
+#
+----- Native stack trace -----
+
+
+
+#
+# Fatal process out of memory: Failed to reserve virtual memory for CodeRange
+#
+----- Native stack trace -----
+
+
+<--- Last few GCs --->
+
+[42664:0000018D7F900000]     5286 ms: Scavenge 6.5 (8.0) -> 5.7 (10.0) MB, pooled: 0 MB, 172.52 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: NewSpace::EnsureCurrentCapacity Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+
+
+#
+# Fatal process out of memory: Re-embedded builtins: set permissions
+#
+----- Native stack trace -----
+
+
+<--- Last few GCs --->
+
+
+<--- Last few GCs --->
+[50476:000001DDBA272000]    10941 ms: Scavenge 6.5 (7.1) -> 6.4 (8.6) MB, pooled: 0 MB, 1.15 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[50476:000001DDBA272000]    10973 ms: Scavenge 7.1 (8.6) -> 6.9 (9.1) MB, pooled: 0 MB, 1.41 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[50476:000001DDBA272000]    11688 ms: Scavenge 8.5 (9.9) -> 8.1 (9.4) MB, pooled: 1 MB, 1.45 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+<--- JS stacktrace --->
+
+
+
+
+
+
+
+<--- Last few GCs --->
+
+<--- Last few GCs --->
+<--- Last few GCs --->
+<--- Last few GCs --->
+<--- Last few GCs --->
+
+<--- JS stacktrace --->
+
+ 1: 00007FF6351D4BB7 
+
+
+
+ 1: 00007FF6351D4BB7 node::SetCppgcReference+21127
+ 1: 00007FF6351D4BB7 
+
+
+
+[73268:000001DFCCB31000]    15886 ms: Scavenge 6.5 (7.1) -> 5.7 (8.0) MB, pooled: 0 MB, 1.45 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[65540:000001FA7E9A2000]      285 ms: Scavenge 3.6 (5.1) -> 3.2 (5.3) MB, pooled: 0 MB, 214.54 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+ 2: 00007FF6350A53FF node::TriggerNodeReport+71455
+ 2: 00007FF6350A53FF 
+ 2: 00007FF6350A53FF 
+
+#
+[71564:0000024C0D942000]     2403 ms: Scavenge 6.5 (8.0) -> 5.7 (9.7) MB, pooled: 0 MB, 10.58 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+<--- JS stacktrace --->
+ 3: 00007FF6363A8576 
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+[65540:000001FA7E9A2000]      553 ms: Scavenge 4.3 (5.8) -> 4.0 (6.3) MB, pooled: 0 MB, 1.27 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+<--- JS stacktrace --->
+
+[65540:000001FA7E9A2000]      966 ms: Scavenge 5.4 (7.1) -> 5.1 (7.3) MB, pooled: 1 MB, 287.05 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+[73268:000001DFCCB31000]    17038 ms: Scavenge 6.3 (8.0) -> 6.0 (7.2) MB, pooled: 1 MB, 1.53 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+ 3: 00007FF6363A8576 v8::base::FatalOOM+54
+ 3: 00007FF6363A8576 
+
+----- Native stack trace -----
+
+ 4: 00007FF635D42A63 v8::Isolate::ReportExternalAllocationLimitReached+147
+ 4: 00007FF635D42A63 
+ 4: 00007FF635D42A63 
+
+
+
+#
+
+
+ 5: 00007FF635D2F4C6 
+ 5: 00007FF635D2F4C6 v8::Function::Experimental_IsNopFunction+3318
+ 5: 00007FF635D2F4C6 
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+
+----- Native stack trace -----
+<--- JS stacktrace --->
+
+<--- JS stacktrace --->
+----- Native stack trace -----
+ 6: 00007FF635B99886 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+90598
+ 6: 00007FF635B8BB10 
+ 6: 00007FF635BD8A6A 
+
+
+
+<--- JS stacktrace --->
+
+
+ 7: 00007FF635BFD9D6 v8::base::CPU::has_sse41+73446
+ 7: 00007FF635B52C51 
+ 7: 00007FF635BFFABA 
+#
+FATAL ERROR: Zone Allocation failed - process out of memory
+
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+ 8: 00007FF63582FAB3 v8::base::AddressSpaceReservation::AddressSpaceReservation+12067
+ 8: 00007FF635B53270 
+ 8: 00007FF635BFDA8F 
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+----- Native stack trace -----
+FATAL ERROR: AlignedAlloc Allocation failed - process out of memory
+----- Native stack trace -----
+ 9: 00007FF635D385F1 v8::Isolate::Initialize+433
+ 9: 00007FF635B52F76 
+ 9: 00007FF63582FAB3 
+#
+
+----- Native stack trace -----
+
+10: 00007FF63521372D node::NewContext+397
+10: 00007FF635B38BAC 
+10: 00007FF635D385F1 
+----- Native stack trace -----
+
+ 1: 00007FF6351D4BB7 
+ 1: 00007FF6351D4BB7 
+11: 00007FF634FE9991 X509_CRL_get_meth_data+149905
+11: 00007FF635B79626 
+11: 00007FF63521372D 
+
+ 2: 00007FF635134C6B 
+12: 00007FF634FEFC98 X509_CRL_get_meth_data+175256
+ 3: 00007FF635D42A11 
+12: 00007FF634FE9991 
+ 2: 00007FF635134C6B 
+12: 00007FF635B792B0 
+ 3: 00007FF635D42A11 
+13: 00007FF634FE3405 X509_CRL_get_meth_data+123909
+13: 00007FF635B78998 
+13: 00007FF634FEFC98 
+ 4: 00007FF635D2F4C6 
+ 4: 00007FF635D2F4C6 
+14: 00007FF6352345F3 uv_poll_stop+371
+14: 00007FF635B78111 
+14: 00007FF634FE3405 
+ 5: 00007FF635810B9B 
+15: 00007FF636AC0E0B inflateValidate+186203
+ 5: 00007FF635B8BB10 
+15: 00007FF635B9E684 
+15: 00007FF6352345F3 
+ 6: 00007FF63591132A 
+ 6: 00007FF635B4387D 
+16: 00007FFFF049CDF7 
+16: 00007FF635B9EFCA 
+16: 00007FF636AC0E0B 
+ 7: 00007FF635B94D13 
+17: 00007FFFF265EE4C 
+17: 00007FF63584A6DF 
+ 7: 00007FF63591563B 
+17: 00007FFFF049CDF7 BaseThreadInitThunk+23
+ 8: 00007FF63592464A 
+ 8: 00007FF635B84BDD 
+18: 00007FF63584BF52 
+18: 00007FFFF265EE4C RtlUserThreadStart+44
+ 9: 00007FF635B80775 
+ 9: 00007FF63591DEBF 
+19: 00007FF635846B19 
+10: 00007FF635507AAD 
+10: 00007FF63592466B 
+20: 00007FF63584B82C 
+11: 7FF8000000000000 
+11: 00007FF63591CCA8 
+21: 00007FF63584C062 
+12: 00007FF63591BFA7 
+22: 00007FF635846B19 
+13: 00007FF63591D6CA 
+23: 00007FF63584B82C 
+14: 00007FF63591D371 
+24: 00007FF63584C062 
+15: 00007FF635922006 
+25: 00007FF635846B19 
+16: 00007FF63591F729 
+26: 00007FF63584B82C 
+17: 00007FF635913F44 
+27: 00007FF63584C062 
+18: 00007FF63591444E 
+28: 00007FF635846B19 
+19: 00007FF635913F91 
+29: 00007FF63584B82C 
+20: 00007FF63591952E 
+30: 00007FF63584C062 
+21: 00007FF6359199DE 
+31: 00007FF635847A45 
+22: 00007FF63592574F 
+32: 00007FF63584C5EF 
+23: 00007FF63591CCA8 
+33: 00007FF635B91AD8 
+24: 00007FF635913B8D 
+34: 00007FF635827BA0 
+25: 00007FF63590E2B6 
+35: 00007FF635BFDF15 
+26: 00007FF63591C4FC 
+36: 00007FF63582FAB3 
+27: 00007FF63590796E 
+37: 00007FF635D385F1 
+28: 00007FF635CA8EDE 
+38: 00007FF63521372D 
+29: 00007FF635CA890A 
+39: 00007FF634FE9991 
+30: 00007FF635884AB7 
+40: 00007FF634FEFC98 
+31: 00007FF635DFE46E 
+41: 00007FF634FE3405 
+32: 00007FF635D5FF8F 
+42: 00007FF6352345F3 
+33: 00007FF5B5F990AA 
+43: 00007FF636AC0E0B 
+44: 00007FFFF049CDF7 
+45: 00007FFFF265EE4C 
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635B8BB10 
+ 6: 00007FF635B4387D 
+ 7: 00007FF635B94D13 
+ 8: 00007FF635B84BDD 
+ 9: 00007FF635B80775 
+10: 00007FF635507AAD 
+11: 7FF8000000000000 
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635B8BB10 
+ 6: 00007FF635B68860 
+ 7: 00007FF635B9276B 
+ 8: 00007FF635B94D7E 
+ 9: 00007FF635B84BDD 
+10: 00007FF635B80775 
+11: 00007FF635507AAD 
+12: 7FF8000000000000 
+ 1: 00007FF6351D4BB7 node::SetCppgcReference+21127
+ 1: 00007FF6351D4BB7 node::SetCppgcReference+21127
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B EVP_MD_meth_get_input_blocksize+102619
+ 3: 00007FF635D42A11 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 4: 00007FF635D2F4C6 v8::Function::Experimental_IsNopFunction+3318
+ 5: 00007FF635B8BB10 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+33904
+ 6: 00007FF635B4387D v8::PrimitiveArray::Length+131021
+ 7: 00007FF635B94D13 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+71283
+ 8: 00007FF635B84BDD v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+5437
+ 9: 00007FF635B80775 v8::CpuProfileNode::GetScriptResourceNameStr+190293
+10: 00007FF635507AAD BIO_ssl_shutdown+189
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635813D2F 
+ 6: 00007FF635946C1C 
+ 7: 00007FF63594669A 
+ 8: 00007FF6359447F0 
+ 9: 00007FF635BB9909 
+10: 00007FF635D1DAF7 
+11: 00007FF63590EEFD 
+12: 00007FF6359226BD 
+13: 00007FF635907C0C 
+14: 00007FF635CAA910 
+15: 00007FF635CB0438 
+16: 00007FF635D2A027 
+17: 00007FF635D29D74 
+18: 00007FF63515C279 
+19: 00007FF63515BAF7 
+20: 00007FF635159C01 
+21: 00007FF635D603D8 
+22: 00007FF5D5F874B2 
+ 2: 00007FF6350A53FF node::TriggerNodeReport+71455
+ 3: 00007FF6363A8576 v8::base::FatalOOM+54
+ 4: 00007FF635D42A63 v8::Isolate::ReportExternalAllocationLimitReached+147
+ 5: 00007FF635D2F4C6 v8::Function::Experimental_IsNopFunction+3318
+ 6: 00007FF635BD8A6A v8::CppHeap::wrapper_descriptor+55626
+ 7: 00007FF635BFFABA v8::base::CPU::has_sse41+81866
+ 1: 00007FF6351D4BB7 
+ 8: 00007FF635BFDA8F v8::base::CPU::has_sse41+73631
+ 9: 00007FF63582FAB3 v8::base::AddressSpaceReservation::AddressSpaceReservation+12067
+ 2: 00007FF6350A53FF 
+10: 00007FF635D385F1 v8::Isolate::Initialize+433
+ 3: 00007FF6363A8576 
+11: 00007FF63521372D node::NewContext+397
+ 4: 00007FF635D42A63 
+12: 00007FF634FE9991 X509_CRL_get_meth_data+149905
+ 5: 00007FF635D2F4C6 
+13: 00007FF634FEFC98 X509_CRL_get_meth_data+175256
+ 6: 00007FF635B8BB10 
+14: 00007FF634FE3405 X509_CRL_get_meth_data+123909
+ 7: 00007FF635B52C51 
+15: 00007FF6352345F3 uv_poll_stop+371
+ 8: 00007FF635B53270 
+16: 00007FF636AC0E0B inflateValidate+186203
+ 9: 00007FF635B52F76 
+17: 00007FFFF049CDF7 
+10: 00007FF635B38BAC 
+18: 00007FFFF265EE4C RtlUserThreadStart+44
+11: 00007FF635B79626 
+ 1: 00007FF6351D4BB7 node::SetCppgcReference+21127
+12: 00007FF635B792B0 
+13: 00007FF635B78998 
+ 2: 00007FF6350A53FF node::TriggerNodeReport+71455
+14: 00007FF635B78111 
+ 3: 00007FF6363A8576 v8::base::FatalOOM+54
+15: 00007FF63584A662 
+ 4: 00007FF635D42A63 v8::Isolate::ReportExternalAllocationLimitReached+147
+16: 00007FF63584BF52 
+ 5: 00007FF635D2F4C6 v8::Function::Experimental_IsNopFunction+3318
+17: 00007FF635847A45 
+ 6: 00007FF635B8BB10 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+33904
+18: 00007FF63584C5EF 
+ 7: 00007FF635B52C51 v8::CpuProfileNode::GetScriptResourceNameStr+3121
+19: 00007FF635827763 
+ 8: 00007FF635B53270 v8::CpuProfileNode::GetScriptResourceNameStr+4688
+20: 00007FF63583FE9A 
+ 9: 00007FF635B52F76 v8::CpuProfileNode::GetScriptResourceNameStr+3926
+21: 00007FF6358315BB 
+10: 00007FF635B38BAC v8::PrimitiveArray::Length+86780
+22: 00007FF635BFDEBD 
+11: 00007FF635B79626 v8::CpuProfileNode::GetScriptResourceNameStr+161286
+23: 00007FF63582FAB3 
+12: 00007FF635B792B0 v8::CpuProfileNode::GetScriptResourceNameStr+160400
+24: 00007FF635D385F1 
+13: 00007FF635B78998 v8::CpuProfileNode::GetScriptResourceNameStr+158072
+25: 00007FF63521372D 
+14: 00007FF635B78111 v8::CpuProfileNode::GetScriptResourceNameStr+155889
+26: 00007FF634FE9991 
+15: 00007FF63584A662 v8::base::AddressSpaceReservation::AddressSpaceReservation+121554
+27: 00007FF634FEFC98 
+16: 00007FF63584BF52 v8::base::AddressSpaceReservation::AddressSpaceReservation+127938
+28: 00007FF634FE3405 
+17: 00007FF635846B19 v8::base::AddressSpaceReservation::AddressSpaceReservation+106377
+29: 00007FF6352345F3 
+18: 00007FF63584B82C v8::base::AddressSpaceReservation::AddressSpaceReservation+126108
+30: 00007FF636AC0E0B 
+19: 00007FF63584C062 v8::base::AddressSpaceReservation::AddressSpaceReservation+128210
+31: 00007FFFF049CDF7 BaseThreadInitThunk+23
+20: 00007FF635846B19 v8::base::AddressSpaceReservation::AddressSpaceReservation+106377
+32: 00007FFFF265EE4C RtlUserThreadStart+44
+21: 00007FF63584B82C v8::base::AddressSpaceReservation::AddressSpaceReservation+126108
+22: 00007FF63584C062 v8::base::AddressSpaceReservation::AddressSpaceReservation+128210
+23: 00007FF635846B19 v8::base::AddressSpaceReservation::AddressSpaceReservation+106377
+24: 00007FF63584B82C v8::base::AddressSpaceReservation::AddressSpaceReservation+126108
+25: 00007FF63584C062 v8::base::AddressSpaceReservation::AddressSpaceReservation+128210
+26: 00007FF635847A45 v8::base::AddressSpaceReservation::AddressSpaceReservation+110261
+27: 00007FF63584C5EF v8::base::AddressSpaceReservation::AddressSpaceReservation+129631
+28: 00007FF635B91AD8 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+58424
+29: 00007FF635827BA0 v8::internal::Version::GetString+93360
+30: 00007FF635BFDF15 v8::base::CPU::has_sse41+74789
+31: 00007FF63582FAB3 v8::base::AddressSpaceReservation::AddressSpaceReservation+12067
+32: 00007FF635D385F1 v8::Isolate::Initialize+433
+33: 00007FF63521372D node::NewContext+397
+34: 00007FF634FE9991 X509_CRL_get_meth_data+149905
+35: 00007FF634FEFC98 X509_CRL_get_meth_data+175256
+36: 00007FF634FE3405 X509_CRL_get_meth_data+123909
+37: 00007FF6352345F3 uv_poll_stop+371
+38: 00007FF636AC0E0B inflateValidate+186203
+39: 00007FFFF049CDF7 BaseThreadInitThunk+23
+40: 00007FFFF265EE4C RtlUserThreadStart+44
+
+
+
+
+
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\CHAITA~1\AppData\Local\Temp\next-panic-29035dbff82ac18207fe0941ba61e62e.log.
+
+To help make Turbopack better, report this error by ]8;;https://bugs.nextjs.org/search?category=turbopack-error-report&title=Turbopack%20Error%3A%20reading%20file%20C%3A%5CUsers%5CChaitanya%5CDownloads%5Chome-services-booking-platform%5C.next%5Cdev%5Cserver%5Capp%5Capi%5Cauth%5Cme%5Croute.js&body=Turbopack%20version%3A%20%60ee6e79b1%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0Areading%20file%20C%3A%5CUsers%5CChaitanya%5CDownloads%5Chome-services-booking-platform%5C.next%5Cdev%5Cserver%5Capp%5Capi%5Cauth%5Cme%5Croute.js%0A%0ACaused%20by%3A%0A-%20Insufficient%20system%20resources%20exist%20to%20complete%20the%20requested%20service.%20%28os%20error%201450%29%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace\clicking here.]8;;\
+-----
+
+#
+
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+<--- Last few GCs --->
+<--- Last few GCs --->
+#
+
+
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+#
+[68204:000002DD323A2000]    18343 ms: Scavenge 9.6 (11.4) -> 9.2 (10.9) MB, pooled: 1 MB, 0.87 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[66316:000001F21BBC2000]    37278 ms: Scavenge 11.2 (13.7) -> 11.2 (12.9) MB, pooled: 2 MB, 0.51 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+----- Native stack trace -----
+[68204:000002DD323A2000]    18406 ms: Scavenge 10.1 (10.9) -> 9.7 (12.1) MB, pooled: 0 MB, 0.64 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+#
+[66316:000001F21BBC2000]    37287 ms: Mark-Compact (reduce) 11.2 (12.9) -> 9.5 (12.1) MB, pooled: 0 MB, 8.04 / 0.00 ms  (average mu = 1.000, current mu = 1.000) last resort; GC in old space requested
+
+[68204:000002DD323A2000]    42047 ms: Scavenge 10.5 (12.1) -> 10.1 (11.4) MB, pooled: 1 MB, 2.97 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+----- Native stack trace -----
+
+
+
+
+ 1: 00007FF6351D4BB7 
+<--- JS stacktrace --->
+<--- JS stacktrace --->
+ 2: 00007FF6350A53FF 
+
+
+ 3: 00007FF6363A8576 
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+ 4: 00007FF635D42A63 
+----- Native stack trace -----
+----- Native stack trace -----
+ 5: 00007FF635D2F4C6 
+
+
+ 6: 00007FF635B8BB10 
+ 1: 00007FF6351D4BB7 
+ 7: 00007FF635B52C51 
+ 2: 00007FF635134C6B 
+ 8: 00007FF635B53270 
+ 3: 00007FF635D42A11 
+ 9: 00007FF635B52F76 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635B8BB10 
+10: 00007FF635B42A4B 
+11: 00007FF635B4207A 
+ 6: 00007FF635B4387D 
+12: 00007FF635B99920 
+ 7: 00007FF635B94D13 
+13: 00007FF635BFDAC3 
+
+ 8: 00007FF635B84BDD 
+14: 00007FF63582FAB3 
+<--- Last few GCs --->
+ 9: 00007FF635B80775 
+15: 00007FF635D385F1 
+
+10: 00007FF635507AAD 
+16: 00007FF63521372D 
+[54516:000001490915E000]    39082 ms: Scavenge 10.5 (12.1) -> 10.4 (13.9) MB, pooled: 1 MB, 1.43 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+11: 7FF8000000000000 
+17: 00007FF634FE9991 
+[54516:000001490915E000]    39116 ms: Mark-Compact (reduce) 10.4 (13.9) -> 9.5 (11.9) MB, pooled: 0 MB, 29.80 / 0.00 ms  (average mu = 0.999, current mu = 0.999) last resort; GC in old space requested
+18: 00007FF634FEFC98 
+
+19: 00007FF634FE3405 
+
+20: 00007FF6352345F3 
+<--- JS stacktrace --->
+21: 00007FF636AC0E0B 
+
+22: 00007FFFF049CDF7 
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+23: 00007FFFF265EE4C 
+----- Native stack trace -----
+
+
+<--- Last few GCs --->
+
+[70228:000001B205773000]     4815 ms: Scavenge 9.3 (11.7) -> 8.5 (11.9) MB, pooled: 0 MB, 2.03 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[70228:000001B205773000]     5071 ms: Scavenge 10.5 (13.2) -> 9.8 (18.2) MB, pooled: 0 MB, 150.24 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[70228:000001B205773000]    34481 ms: Scavenge 12.7 (18.2) -> 11.3 (13.9) MB, pooled: 6 MB, 201.62 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF6350A53FF 
+ 3: 00007FF6363A8576 
+ 4: 00007FF635D42A63 
+ 5: 00007FF635D2F4C6 
+ 6: 00007FF635B8BB10 
+ 7: 00007FF635B52C51 
+ 8: 00007FF635B53270 
+ 9: 00007FF635B52F76 
+10: 00007FF635B42A4B 
+11: 00007FF635B4207A 
+12: 00007FF635B99920 
+13: 00007FF635BFDAC3 
+14: 00007FF63582FAB3 
+15: 00007FF635D385F1 
+16: 00007FF63521372D 
+17: 00007FF634FE9991 
+18: 00007FF634FEFC98 
+19: 00007FF634FE3405 
+20: 00007FF6352345F3 
+21: 00007FF636AC0E0B 
+22: 00007FFFF049CDF7 
+23: 00007FFFF265EE4C 
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635B8BB10 
+ 6: 00007FF635B4387D 
+ 7: 00007FF635B94D13 
+ 8: 00007FF635B84BDD 
+ 9: 00007FF635B80775 
+10: 00007FF635507AAD 
+11: 7FF8000000000000 
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635B8BB10 
+ 6: 00007FF635B4387D 
+ 7: 00007FF635B94D13 
+ 8: 00007FF635B84BDD 
+ 9: 00007FF635B80775 
+10: 00007FF635507AAD 
+11: 7FF8000000000000 
+ 1: 00007FF6351D4BB7 
+ 2: 00007FF635134C6B 
+ 3: 00007FF635D42A11 
+ 4: 00007FF635D2F4C6 
+ 5: 00007FF635810B9B 
+ 6: 00007FF635ABB283 
+ 7: 00007FF635ABB151 
+ 8: 00007FF635ABB5CF 
+ 9: 00007FF635AE7182 
+10: 00007FF635AD1967 
+11: 00007FF635ACA9D7 
+12: 00007FF635ACAB74 
+13: 00007FF635ACB721 
+14: 00007FF635AD165A 
+15: 00007FF635ACA9D7 
+16: 00007FF635ACDED6 
+17: 00007FF635AD14B4 
+18: 00007FF635ACA9D7 
+19: 00007FF635ACDF8D 
+20: 00007FF635AD0DDA 
+21: 00007FF635ACA9D7 
+22: 00007FF635AD3DA5 
+23: 00007FF635ACAFCD 
+24: 00007FF635ACAE84 
+25: 00007FF635AD0DAA 
+26: 00007FF635ACA9D7 
+27: 00007FF635AD3DA5 
+28: 00007FF635AC8C5C 
+29: 00007FF635AC8840 
+30: 00007FF635AB81CB 
+31: 00007FF635CAC5B8 
+32: 00007FF635CA5A62 
+33: 00007FF635CAAC1A 
+34: 00007FF635CB0438 
+35: 00007FF635D2A027 
+36: 00007FF635D29D74 
+37: 00007FF63515C279 
+38: 00007FF63515BAF7 
+39: 00007FF635159C01 
+40: 000001B22568FA64 
+
+
+#
+# Fatal JavaScript out of memory: MemoryChunk allocation failed during deserialization.
+#
+----- Native stack trace -----
+
+
+<--- Last few GCs --->
+
+[65700:0000018130A43000]    18751 ms: Scavenge 9.6 (11.4) -> 9.2 (10.6) MB, pooled: 1 MB, 1.39 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[65700:0000018130A43000]    19405 ms: Scavenge 10.1 (10.9) -> 9.6 (12.4) MB, pooled: 0 MB, 3.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[65700:0000018130A43000]    40528 ms: Scavenge 10.5 (12.4) -> 10.0 (11.4) MB, pooled: 1 MB, 1.35 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[Server HMR] Subscription error: Error [TurbopackInternalError]: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js"
+
+Caused by:
+- Insufficient system resources exist to complete the requested service. (os error 1450)
+    at <unknown> (TurbopackInternalError: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js") {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js"
+
+Caused by:
+- Insufficient system resources exist to complete the requested service. (os error 1450)
+    at <unknown> (TurbopackInternalError: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js") {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js"
+
+Caused by:
+- Insufficient system resources exist to complete the requested service. (os error 1450)
+    at <unknown> (TurbopackInternalError: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js") {
+  location: undefined
+}
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+[Server HMR] Subscription error: Error [TurbopackInternalError]: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js"
+
+Caused by:
+- Insufficient system resources exist to complete the requested service. (os error 1450)
+    at <unknown> (TurbopackInternalError: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js") {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js"
+
+Caused by:
+- Insufficient system resources exist to complete the requested service. (os error 1450)
+    at <unknown> (TurbopackInternalError: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js") {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js"
+
+Caused by:
+- Insufficient system resources exist to complete the requested service. (os error 1450)
+    at <unknown> (TurbopackInternalError: failed to write to "C:\\Users\\Chaitanya\\Downloads\\home-services-booking-platform\\.next\\dev\\server\\app\\api\\providers\\route.js") {
+  location: undefined
+}
+ 1: 00007FF6351D4BB7 node::SetCppgcReference+21127
+ 2: 00007FF6350A53FF node::TriggerNodeReport+71455
+ 3: 00007FF6363A8576 v8::base::FatalOOM+54
+ 4: 00007FF635D42A63 v8::Isolate::ReportExternalAllocationLimitReached+147
+ 1: 00007FF6351D4BB7 node::SetCppgcReference+21127
+ 2: 00007FF635134C6B EVP_MD_meth_get_input_blocksize+102619
+ 3: 00007FF635D42A11 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 4: 00007FF635D2F4C6 v8::Function::Experimental_IsNopFunction+3318
+ 5: 00007FF635B8BB10 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+33904
+ 6: 00007FF635B4387D v8::PrimitiveArray::Length+131021
+ 7: 00007FF635B94D13 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+71283
+ 8: 00007FF635B84BDD v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+5437
+ 9: 00007FF635B80775 v8::CpuProfileNode::GetScriptResourceNameStr+190293
+10: 00007FF635507AAD BIO_ssl_shutdown+189
+11: 7FF8000000000000 
+ 5: 00007FF635D2F4C6 v8::Function::Experimental_IsNopFunction+3318
+ 6: 00007FF635B8BB10 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+33904
+ 7: 00007FF635B52C51 v8::CpuProfileNode::GetScriptResourceNameStr+3121
+ 8: 00007FF635B53270 v8::CpuProfileNode::GetScriptResourceNameStr+4688
+ 9: 00007FF635B52F76 v8::CpuProfileNode::GetScriptResourceNameStr+3926
+10: 00007FF635B42A4B v8::PrimitiveArray::Length+127387
+11: 00007FF635B4207A v8::PrimitiveArray::Length+124874
+12: 00007FF635B99920 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+90752
+13: 00007FF635BFDAC3 v8::base::CPU::has_sse41+73683
+14: 00007FF63582FAB3 v8::base::AddressSpaceReservation::AddressSpaceReservation+12067
+15: 00007FF635D385F1 v8::Isolate::Initialize+433
+16: 00007FF63521372D node::NewContext+397
+17: 00007FF634FE9991 X509_CRL_get_meth_data+149905
+18: 00007FF634FEFC98 X509_CRL_get_meth_data+175256
+19: 00007FF634FE3405 X509_CRL_get_meth_data+123909
+20: 00007FF6352345F3 uv_poll_stop+371
+21: 00007FF636AC0E0B inflateValidate+186203
+22: 00007FFFF049CDF7 BaseThreadInitThunk+23
+23: 00007FFFF265EE4C RtlUserThreadStart+44
+[Server HMR] Subscription error: Error [TurbopackInternalError]: reading file C:\Users\Chaitanya\Downloads\home-services-booking-platform\.next\dev\server\app\api\auth\me\route.js
+
+Caused by:
+- Insufficient system resources exist to complete the requested service. (os error 1450)
+    at <unknown> (TurbopackInternalError: reading file C:\Users\Chaitanya\Downloads\home-services-booking-platform\.next\dev\server\app\api\auth\me\route.js) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: reading file C:\Users\Chaitanya\Downloads\home-services-booking-platform\.next\dev\server\app\api\auth\me\route.js
+
+Caused by:
+- Insufficient system resources exist to complete the requested service. (os error 1450)
+    at <unknown> (TurbopackInternalError: reading file C:\Users\Chaitanya\Downloads\home-services-booking-platform\.next\dev\server\app\api\auth\me\route.js) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: reading file C:\Users\Chaitanya\Downloads\home-services-booking-platform\.next\dev\server\app\api\auth\me\route.js
+
+Caused by:
+- Insufficient system resources exist to complete the requested service. (os error 1450)
+    at <unknown> (TurbopackInternalError: reading file C:\Users\Chaitanya\Downloads\home-services-booking-platform\.next\dev\server\app\api\auth\me\route.js) {
+  location: undefined
+}
+[?25h
